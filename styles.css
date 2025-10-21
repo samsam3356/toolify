@@ -1,0 +1,9 @@
+:root{--bg:#0f0f12;--card:#15151a;--accent:#ff6b6b;--text:#e6e6e6}
+*{box-sizing:border-box}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;margin:0;background:var(--bg);color:var(--text);line-height:1.4}
+a{color:var(--accent);text-decoration:none}
+.site-header{padding:18px;display:flex;justify-content:space-between;align-items:center;background:linear-gradient(90deg,#0b0b0d,#111)}
+.container{padding:20px;max-width:980px;margin:0 auto}
+.tool-card{background:var(--card);padding:16px;border-radius:8px;margin-top:12px}
+.btn{display:inline-block;padding:8px 12px;background:var(--accent);color:#111;border-radius:6px}
+.site-footer{text-align:center;padding:16px;color:#999;background:transparent;margin-top:40px}
